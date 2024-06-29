@@ -1,0 +1,27 @@
+{
+  "name": "gitexplain",
+  "version": "1.0.0",
+  "description": "Developers can get a summary of what every commit made in a Github project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanceseidman/gitexplain.git"
+  },
+  "keywords": [
+    "gitexplain"
+  ],
+  "author": "Lance Seidman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lanceseidman/gitexplain/issues"
+  },
+  "homepage": "https://github.com/lanceseidman/gitexplain#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security"
+  }
+}
